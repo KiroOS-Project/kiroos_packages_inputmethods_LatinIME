@@ -18,8 +18,8 @@
 */
 -->
 <resources>
-    <string name="english_ime_name">Meur-chlàr Android (AOSP)</string>
-    <string name="spell_checker_service_name">Dearbhair-litreachaidh Android (AOSP)</string>
-    <string name="english_ime_settings">Roghainnean a’ mheur-chlàir Android (AOSP)</string>
-    <string name="android_spell_checker_settings">Roghainnean dearbhair-litreachaidh Android (AOSP)</string>
+    <string name="english_ime_name">Meur-chlàr Android</string>
+    <string name="spell_checker_service_name">Dearbhair-litreachaidh Android</string>
+    <string name="english_ime_settings">Roghainnean a’ mheur-chlàir Android</string>
+    <string name="android_spell_checker_settings">Roghainnean dearbhair-litreachaidh Android</string>
 </resources>

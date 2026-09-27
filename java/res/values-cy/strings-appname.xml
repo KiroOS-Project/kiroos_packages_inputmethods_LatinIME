@@ -18,8 +18,8 @@
 */
 -->
 <resources>
-    <string name="english_ime_name">Bysellfwrdd Android (AOSP)</string>
-    <string name="spell_checker_service_name">Gwirydd Sillafu Android (AOSP)</string>
-    <string name="english_ime_settings">Gosodiadau Bysellfwrdd Android (AOSP)</string>
-    <string name="android_spell_checker_settings">Gosodiadau Gwirydd Sillafu Android (AOSP)</string>
+    <string name="english_ime_name">Bysellfwrdd Android</string>
+    <string name="spell_checker_service_name">Gwirydd Sillafu Android</string>
+    <string name="english_ime_settings">Gosodiadau Bysellfwrdd Android</string>
+    <string name="android_spell_checker_settings">Gosodiadau Gwirydd Sillafu Android</string>
 </resources>

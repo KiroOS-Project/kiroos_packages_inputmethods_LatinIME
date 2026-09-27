@@ -272,6 +272,7 @@
         <attr name="iconShortcutKey" format="reference" />
         <attr name="iconSpaceKeyForNumberLayout" format="reference" />
         <attr name="iconShiftKeyShifted" format="reference" />
+        <attr name="iconShiftKeyLocked" format="reference" />
         <attr name="iconShortcutKeyDisabled" format="reference" />
         <attr name="iconLanguageSwitchKey" format="reference" />
         <attr name="iconZwnjKey" format="reference" />

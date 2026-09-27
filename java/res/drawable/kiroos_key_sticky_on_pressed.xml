@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- KiroOS AMOLED keyboard: lit toggle key, pressed -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFBDBDBD" />
+    <corners android:radius="6dp" />
+</shape>

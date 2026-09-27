@@ -18,8 +18,8 @@
 */
 -->
 <resources>
-    <string name="english_ime_name">ئاندىرويىد ھەرپتاختا (AOSP)</string>
-    <string name="spell_checker_service_name">ئاندىرويىد ئىملا تەكشۈرگۈچ (AOSP)</string>
-    <string name="english_ime_settings">ئاندىرويىد ھەرپتاختا تەڭشەكلەر (AOSP)</string>
-    <string name="android_spell_checker_settings">ئاندىرويىد ئىملا تەكشۈرگۈچ تەڭشەكلەر (AOSP)</string>
+    <string name="english_ime_name">ئاندىرويىد ھەرپتاختا</string>
+    <string name="spell_checker_service_name">ئاندىرويىد ئىملا تەكشۈرگۈچ</string>
+    <string name="english_ime_settings">ئاندىرويىد ھەرپتاختا تەڭشەكلەر</string>
+    <string name="android_spell_checker_settings">ئاندىرويىد ئىملا تەكشۈرگۈچ تەڭشەكلەر</string>
 </resources>

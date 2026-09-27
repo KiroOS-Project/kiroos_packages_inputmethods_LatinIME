@@ -27,11 +27,28 @@
         <Key
             latin:keyStyle="toSymbolKeyStyle"
             latin:keyWidth="15%p" />
-        <include
-            latin:keyboardLayout="@xml/key_comma" />
-        <include
-            latin:keyXPos="25%p"
-            latin:keyboardLayout="@xml/key_space_5kw" />
+        <switch>
+            <!-- In "im" mode the enter key already is the emoji key. -->
+            <case
+                latin:mode="im|email|url"
+            >
+                <include
+                    latin:keyboardLayout="@xml/key_comma" />
+                <include
+                    latin:keyXPos="25%p"
+                    latin:keyboardLayout="@xml/key_space_5kw" />
+            </case>
+            <!-- KiroOS: emoji key always at hand, next to the comma -->
+            <default>
+                <Key
+                    latin:keyStyle="emojiNormalKeyStyle" />
+                <include
+                    latin:keyboardLayout="@xml/key_comma" />
+                <include
+                    latin:keyXPos="35%p"
+                    latin:keyboardLayout="@xml/key_space_4kw" />
+            </default>
+        </switch>
         <include
             latin:keyboardLayout="@xml/key_period" />
         <Key

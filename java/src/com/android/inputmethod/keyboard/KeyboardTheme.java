@@ -57,8 +57,8 @@ public final class KeyboardTheme implements Comparable<KeyboardTheme> {
                 // Default theme for LXX.
                 Build.VERSION_CODES.LOLLIPOP),
         new KeyboardTheme(THEME_ID_LXX_DARK, "LXXDark", R.style.KeyboardTheme_LXX_Dark,
-                // This has never been selected as default theme.
-                VERSION_CODES.BASE),
+                // KiroOS: pure black AMOLED keyboard, default from Android 7.
+                Build.VERSION_CODES.N),
     };
 
     static {

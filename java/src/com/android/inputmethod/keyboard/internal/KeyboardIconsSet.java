@@ -39,6 +39,8 @@ public final class KeyboardIconsSet {
     private static final String NAME_UNDEFINED = "undefined";
     public static final String NAME_SHIFT_KEY = "shift_key";
     public static final String NAME_SHIFT_KEY_SHIFTED = "shift_key_shifted";
+    // KiroOS: caps lock gets its own icon (shifted arrow + bar)
+    public static final String NAME_SHIFT_KEY_LOCKED = "shift_key_locked";
     public static final String NAME_DELETE_KEY = "delete_key";
     public static final String NAME_SETTINGS_KEY = "settings_key";
     public static final String NAME_SPACE_KEY = "space_key";
@@ -87,6 +89,7 @@ public final class KeyboardIconsSet {
         NAME_ZWJ_KEY,                     R.styleable.Keyboard_iconZwjKey,
         NAME_EMOJI_ACTION_KEY,            R.styleable.Keyboard_iconEmojiActionKey,
         NAME_EMOJI_NORMAL_KEY,            R.styleable.Keyboard_iconEmojiNormalKey,
+        NAME_SHIFT_KEY_LOCKED,            R.styleable.Keyboard_iconShiftKeyLocked,
     };
 
     private static int NUM_ICONS = NAMES_AND_ATTR_IDS.length / 2;

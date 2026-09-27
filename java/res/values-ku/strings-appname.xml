@@ -18,8 +18,8 @@
 */
 -->
 <resources>
-    <string name="english_ime_name">تەختەکلیلی ئەندرۆید(AOSP)</string>
-    <string name="spell_checker_service_name">پشکنەری ڕێنووسی ئەندرۆید(AOSP)</string>
-    <string name="english_ime_settings">ڕێکخستنی تەختەکلیلی ئەندرۆید (AOSP)</string>
-    <string name="android_spell_checker_settings">ڕێکخستنی پشکنەری ڕێنوسی ئەندرۆید(AOSP)</string>
+    <string name="english_ime_name">تەختەکلیلی ئەندرۆید</string>
+    <string name="spell_checker_service_name">پشکنەری ڕێنووسی ئەندرۆید</string>
+    <string name="english_ime_settings">ڕێکخستنی تەختەکلیلی ئەندرۆید</string>
+    <string name="android_spell_checker_settings">ڕێکخستنی پشکنەری ڕێنوسی ئەندرۆید</string>
 </resources>

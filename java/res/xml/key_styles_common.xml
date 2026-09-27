@@ -48,10 +48,11 @@
         <case
             latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetAutomaticShifted"
         >
+            <!-- KiroOS: an active shift key is lit (sticky on) so it is obvious -->
             <key-style
                 latin:styleName="shiftKeyStyle"
                 latin:keySpec="!icon/shift_key_shifted|!code/key_shift"
-                latin:backgroundType="stickyOff"
+                latin:backgroundType="stickyOn"
                 latin:parentStyle="baseForShiftKeyStyle" />
         </case>
         <case
@@ -59,7 +60,7 @@
         >
             <key-style
                 latin:styleName="shiftKeyStyle"
-                latin:keySpec="!icon/shift_key_shifted|!code/key_shift"
+                latin:keySpec="!icon/shift_key_locked|!code/key_shift"
                 latin:backgroundType="stickyOn"
                 latin:parentStyle="baseForShiftKeyStyle" />
         </case>
@@ -95,6 +96,12 @@
                 latin:backgroundType="action" />
         </default>
     </switch>
+    <!-- KiroOS: always available emoji key in the bottom row -->
+    <key-style
+        latin:styleName="emojiNormalKeyStyle"
+        latin:keySpec="!icon/emoji_normal_key|!code/key_emoji"
+        latin:keyActionFlags="noKeyPreview"
+        latin:backgroundType="functional" />
     <include
         latin:keyboardLayout="@xml/key_styles_enter" />
     <!-- TODO: Currently there is no way to specify icon alignment per theme. -->
