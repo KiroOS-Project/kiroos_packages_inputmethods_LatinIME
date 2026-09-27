@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- KiroOS AMOLED keyboard: action key (enter / search / send), neutral instead of teal -->
+<!-- KiroOS 2.1 keyboard: enter / search / send, KiroOS blue -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#FF2C2C2E" />
-    <corners android:radius="6dp" />
+    <solid android:color="#FF3987E5" />
+    <corners android:radius="10dp" />
 </shape>

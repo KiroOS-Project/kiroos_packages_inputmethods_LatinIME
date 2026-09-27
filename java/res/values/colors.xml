@@ -78,6 +78,7 @@
     <color name="emoji_tab_page_indicator_background_lxx_dark">#000000</color>
     <!-- KiroOS AMOLED keyboard -->
     <color name="kiroos_keyboard_background">#FF000000</color>
+    <color name="kiroos_keyboard_background_light">#FFE4E6EB</color>
     <!-- Color resources for setup wizard and tutorial -->
     <color name="setup_background">#FFEBEBEB</color>
     <color name="setup_text_dark">#FF707070</color>

@@ -169,6 +169,18 @@ public final class KeyboardTheme implements Comparable<KeyboardTheme> {
     public static KeyboardTheme getKeyboardTheme(final Context context) {
         final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
         final KeyboardTheme[] availableThemeArray = getAvailableThemeArray(context);
+        // KiroOS 2.1: unless a theme was picked in the keyboard settings, the keyboard follows
+        // the system theme (Settings > Display > Theme): light keys with the light theme
+        if (prefs.getString(LXX_KEYBOARD_THEME_KEY, null) == null) {
+            final int night = context.getResources().getConfiguration().uiMode
+                    & android.content.res.Configuration.UI_MODE_NIGHT_MASK;
+            final KeyboardTheme t = searchKeyboardThemeById(
+                    night == android.content.res.Configuration.UI_MODE_NIGHT_NO
+                            ? THEME_ID_LXX_LIGHT : THEME_ID_LXX_DARK, availableThemeArray);
+            if (t != null) {
+                return t;
+            }
+        }
         return getKeyboardTheme(prefs, BuildCompatUtils.EFFECTIVE_SDK_INT, availableThemeArray);
     }
 
