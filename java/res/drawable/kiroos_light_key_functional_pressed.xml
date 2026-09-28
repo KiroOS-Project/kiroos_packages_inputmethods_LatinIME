@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- KiroOS 2.1 keyboard: light functional key, pressed -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#FFB0B5BF" />
+    <solid android:color="#FFD9DCE2" />
     <corners android:radius="10dp" />
 </shape>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- KiroOS 2.1 keyboard: shift, delete, symbols, emoji -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#FF2C2C30" />
+    <solid android:color="#FF1F1F22" />
     <corners android:radius="10dp" />
 </shape>

@@ -42,20 +42,20 @@
     <color name="highlight_translucent_color_klp">#99E0E0E0</color>
     <!-- Color resources for LXX_Light theme.
          15%:0x26 70%:0xB3 75%:0xC0 80%:0xCC 85%:0xD9 90%:0xE6 -->
-    <color name="key_text_color_lxx_light">#37474F</color>
-    <color name="key_functional_text_color_lxx_light">#CC37474F</color>
-    <color name="key_text_inactive_color_lxx_light">#B337474F</color>
-    <color name="key_hint_letter_color_lxx_light">#B337474F</color>
-    <color name="language_on_spacebar_text_color_lxx_light">#B337474F</color>
-    <color name="highlight_color_lxx_light">#4DB6AC</color>
-    <color name="auto_correct_color_lxx_light">#37474F</color>
-    <color name="typed_word_color_lxx_light">#D937474F</color>
-    <color name="suggested_word_color_lxx_light">#B337474F</color>
-    <color name="gesture_trail_color_lxx_light">#4DB6AC</color>
-    <color name="sliding_key_input_preview_color_lxx_light">#B34DB6AC</color>
+    <color name="key_text_color_lxx_light">#FF1C1C1E</color>
+    <color name="key_functional_text_color_lxx_light">#FF1C1C1E</color>
+    <color name="key_text_inactive_color_lxx_light">#991C1C1E</color>
+    <color name="key_hint_letter_color_lxx_light">#991C1C1E</color>
+    <color name="language_on_spacebar_text_color_lxx_light">#991C1C1E</color>
+    <color name="highlight_color_lxx_light">#FF1C1C1E</color>
+    <color name="auto_correct_color_lxx_light">#FF1C1C1E</color>
+    <color name="typed_word_color_lxx_light">#D91C1C1E</color>
+    <color name="suggested_word_color_lxx_light">#B31C1C1E</color>
+    <color name="gesture_trail_color_lxx_light">#FF8E8E93</color>
+    <color name="sliding_key_input_preview_color_lxx_light">#B38E8E93</color>
     <color name="key_background_lxx_light">#ECEFF1</color>
-    <color name="key_background_pressed_lxx_light">#2637474F</color>
-    <color name="suggested_word_background_selected_lxx_light">#2637474F</color>
+    <color name="key_background_pressed_lxx_light">#261C1C1E</color>
+    <color name="suggested_word_background_selected_lxx_light">#261C1C1E</color>
     <color name="gesture_floating_preview_color_lxx_light">#E6ECEFF1</color>
     <color name="emoji_tab_page_indicator_background_lxx_light">#E4E7E9</color>
     <!-- Color resources for LXX_Dark theme.
@@ -69,7 +69,7 @@
     <color name="auto_correct_color_lxx_dark">#FFFFFF</color>
     <color name="typed_word_color_lxx_dark">#D9FFFFFF</color>
     <color name="suggested_word_color_lxx_dark">#B3FFFFFF</color>
-    <color name="gesture_trail_color_lxx_dark">#FFFFFF</color>
+    <color name="gesture_trail_color_lxx_dark">#FFAEAEB2</color>
     <color name="sliding_key_input_preview_color_lxx_dark">#B3FFFFFF</color>
     <color name="key_background_lxx_dark">#181818</color>
     <color name="key_background_pressed_lxx_dark">#FF333333</color>
