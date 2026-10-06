@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- KiroOS 2.1 keyboard keys: a press lights the key at once and it fades back softly -->
 <selector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:enterFadeDuration="30" android:exitFadeDuration="200">
+>
     <!-- Action keys. -->
     <item android:state_active="true" android:state_pressed="true"
           android:drawable="@drawable/kiroos_key_action_pressed" />

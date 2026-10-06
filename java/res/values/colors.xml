@@ -57,7 +57,7 @@
     <color name="key_background_pressed_lxx_light">#261C1C1E</color>
     <color name="suggested_word_background_selected_lxx_light">#261C1C1E</color>
     <color name="gesture_floating_preview_color_lxx_light">#E6ECEFF1</color>
-    <color name="emoji_tab_page_indicator_background_lxx_light">#E4E7E9</color>
+    <color name="emoji_tab_page_indicator_background_lxx_light">#E4E4E9</color>
     <!-- Color resources for LXX_Dark theme.
          10%:0x19 50%:0x80 70%:0xB3 75%:0xC0 80%:0xCC 85%:0xD9 90%:0xE6  -->
     <color name="key_text_color_lxx_dark">#FFFFFFFF</color>
@@ -71,14 +71,14 @@
     <color name="suggested_word_color_lxx_dark">#B3FFFFFF</color>
     <color name="gesture_trail_color_lxx_dark">#FFAEAEB2</color>
     <color name="sliding_key_input_preview_color_lxx_dark">#B3FFFFFF</color>
-    <color name="key_background_lxx_dark">#181818</color>
+    <color name="key_background_lxx_dark">#2C2C2E</color>
     <color name="key_background_pressed_lxx_dark">#FF333333</color>
     <color name="suggested_word_background_selected_lxx_dark">#19FFFFFF</color>
-    <color name="gesture_floating_preview_color_lxx_dark">#E6181818</color>
-    <color name="emoji_tab_page_indicator_background_lxx_dark">#000000</color>
+    <color name="gesture_floating_preview_color_lxx_dark">#E62C2C2E</color>
+    <color name="emoji_tab_page_indicator_background_lxx_dark">#1C1C1E</color>
     <!-- KiroOS AMOLED keyboard -->
-    <color name="kiroos_keyboard_background">#FF000000</color>
-    <color name="kiroos_keyboard_background_light">#FFE4E6EB</color>
+    <color name="kiroos_keyboard_background">#FF1C1C1E</color>
+    <color name="kiroos_keyboard_background_light">#FFE4E4E9</color>
     <!-- Color resources for setup wizard and tutorial -->
     <color name="setup_background">#FFEBEBEB</color>
     <color name="setup_text_dark">#FF707070</color>
